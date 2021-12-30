@@ -3,7 +3,7 @@ body{
     flex-direction: column;
     margin: 0;
     padding: 0;
-    
+    background-image: url();
 }
 
 .container {
@@ -38,23 +38,11 @@ body{
 .hero-content{
     display: flex;
     justify-content: center;
-    
-}
-
-.hero-left{
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    
-    
-}
-.hero-right{
-    display:flex;
-    flex: 1;
     align-items: center;
-    justify-content: center;
-    background-color: gray;
-    color: white;
+    flex: 1;
+    flex-direction: column;
+    border: solid;
+
 }
 
 .header-logo {
@@ -72,6 +60,10 @@ body{
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+}
+
+.hero-description{
+    display: flex;
 }
 
 .sign-up-container {
@@ -100,4 +92,8 @@ body{
     color: #E5E7EB;
     font-size: 18px;
 
+}
+
+.info h3{
+    text-align: center;
 }
