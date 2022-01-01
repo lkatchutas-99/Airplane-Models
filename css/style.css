@@ -3,6 +3,7 @@ body{
     flex-direction: column;
     margin: 0;
     padding: 0;
+    
 }
 
 .hero-width-control {
@@ -66,10 +67,9 @@ body{
 .hero-content {
     
     display: flex;
-    
     justify-content: space-around;
     align-items: center;
-    height: 50%;
+    height: 70%;
     width: 100%;
     margin: auto;
     background-color: #1F2937;
@@ -91,11 +91,6 @@ body{
     display: flex;
     font-size: 18px;
     color: #E5E7EB;
-}
-
-
-.hero-description {
-    display: flex;
     font-size: 40;
 }
 
