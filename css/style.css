@@ -208,8 +208,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    
     background-color: #F9FAF8;
-    background-size: 100%;
     
 }
 
@@ -219,6 +219,8 @@ body {
     background-color: #1F2937;
     display: flex;
     align-items: center;
+    
+    border-radius: 50px;
 }
 
 .footer {
