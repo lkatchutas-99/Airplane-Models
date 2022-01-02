@@ -45,16 +45,18 @@ body{
 .header {
     display: flex;
     margin: 0;
-    padding: 0;
+    padding: 5px;
     justify-content: space-between;
     width: 100%;
+    background-color: #1F2937;
+    position: fixed;
 }
 
 .header-logo {
     margin: 0;
     padding: 0;
     font-size: 24px; 
-    color: #F9FAF8;  
+    color:#E5E7EB
 }
 
 .links {
@@ -62,6 +64,7 @@ body{
     gap: 2em;
     margin: 0;
     padding: 0;
+    
 }
 
 .hero-content {
@@ -69,9 +72,11 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    align-self: center;
     height: 70%;
     width: 100%;
     margin: auto;
+    padding: 5px;
     background-color: #1F2937;
     border-radius: 50px;
     
@@ -88,10 +93,11 @@ body{
 }
 
 .hero-description {
-    display: flex;
+    
     font-size: 18px;
     color: #E5E7EB;
     font-size: 40;
+    text-align: center;
 }
 
 .sign-up-container {
@@ -122,13 +128,19 @@ body{
 
 .nav a {
     text-decoration: none;
-    color: black;
+    color: #E5E7EB;
     font-size: 18px;
     
 }
 
-.nav:hover {
-    background-color: #808080;
+.icon img {
+    height: auto;
+    width: 50px;
+}
+
+.nav a:hover {
+    background-color: #E5E7EB;
+    color: #1F2937;
     border-radius: 10px;
 }
 
@@ -143,10 +155,6 @@ body{
     
 }
 
-.info h3 {
-    
-    
-}
 
 .info ul{
     display: flex;
@@ -167,6 +175,7 @@ body{
     display: flex;
     justify-content: space-around;
     flex: 1;
+    flex-wrap: wrap;
 }
 
 .icon {
