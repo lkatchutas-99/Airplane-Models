@@ -1,4 +1,4 @@
-body{
+body {
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -26,6 +26,7 @@ body{
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    
 }
 
 .hero-left {
@@ -34,7 +35,7 @@ body{
     flex: 1;
     align-items: center;
     justify-content: space-between;
-
+    padding: 0 10px;
 }
 
 .hero-right {
@@ -45,8 +46,8 @@ body{
 .header {
     display: flex;
     margin: 0;
-    padding: 5px;
-    justify-content: space-between;
+    padding: 10px;
+    justify-content: space-around;
     width: 100%;
     background-color: #1F2937;
     position: fixed;
@@ -64,7 +65,6 @@ body{
     gap: 2em;
     margin: 0;
     padding: 0;
-    
 }
 
 .hero-content {
@@ -75,9 +75,9 @@ body{
     align-self: center;
     height: 70%;
     width: 100%;
-    margin: auto;
-    padding: 5px;
-    background-color: #1F2937;
+    margin-top: 150px;
+    background-color: rgba(31, 41, 55, .9);
+   /* background-color: #1F2937*/;
     border-radius: 50px;
     
 }
@@ -87,37 +87,43 @@ body{
     max-height: 100%;
 }
 
-
 .hero-title {
     color: #F9FAF8;
 }
 
 .hero-description {
-    
     font-size: 18px;
     color: #E5E7EB;
     font-size: 40;
-    text-align: center;
+}
+
+.hero-right img {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 .sign-up-container {
-    display: flex;
+    /*display: flex;
     background-color: #3882f6;
     width: 100px;
-    
     padding: 6px;
-    border-radius: 5px;
+    border-radius: 5px;*/
 }
 
-.sign-up-container:hover {
-    background-color: #222222;
-    
+.sign-up:hover {
+    background-color: #F9FAF8;
+    color: #3882f6
 }
 
 .sign-up {
-    width: 100%;
+    width: 100px;
+    padding: 6px;
+    border-radius: 5px;
+    background-color: #3882f6;
     text-align: center;
-    color: white;
+    color: #F9FAF8;
     text-decoration: none;
 }
 
@@ -134,8 +140,8 @@ body{
 }
 
 .icon img {
-    height: auto;
-    width: 50px;
+    height: 100%;
+    width: 100%;
 }
 
 .nav a:hover {
@@ -148,16 +154,9 @@ body{
     
     display: flex;
     flex-direction: column;
-    
+    background-color: #F9FAF8;
     height: 500px;
     
-    justify-content: center;
-    
-}
-
-
-.info ul{
-    display: flex;
     justify-content: space-between;
     
 }
@@ -167,22 +166,25 @@ body{
     margin-top: 0;
     align-items: center;
     
-    flex: 1;
+    flex-shrink: 1;
 }
 
 .info-content {
     
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex: 1;
     flex-wrap: wrap;
 }
 
+
+
 .icon {
+    
     border: solid;
-    border-width: 5px;
     width: 100%;    
-    padding-bottom: 100%;
+    padding-bottom: auto;
     border-radius: 3px;
 }
 
@@ -197,12 +199,17 @@ body{
 .quote {
     height: 400px;
     background-color: #E5E7EB;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .quote-width-control {
-    width: 70%;
+    width: 50%;
+    margin: 0 auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer {
