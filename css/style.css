@@ -77,7 +77,7 @@ body {
     width: 100%;
     margin-top: 150px;
     background-color: rgba(31, 41, 55, .9);
-   /* background-color: #1F2937*/;
+   
     border-radius: 50px;
     
 }
@@ -102,14 +102,6 @@ body {
     height: 100%;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
-}
-
-.sign-up-container {
-    /*display: flex;
-    background-color: #3882f6;
-    width: 100px;
-    padding: 6px;
-    border-radius: 5px;*/
 }
 
 .sign-up:hover {
@@ -155,10 +147,10 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #F9FAF8;
-    height: 500px;
-    
+    height: 700px;
+    padding-bottom: 20px;
     justify-content: space-between;
-    
+       
 }
 
 .info-header {
@@ -178,10 +170,7 @@ body {
     flex-wrap: wrap;
 }
 
-
-
 .icon {
-    
     border: solid;
     width: 100%;    
     padding-bottom: auto;
@@ -189,11 +178,12 @@ body {
 }
 
 .option {
-    
     width: 120px;
     height: 200px;
     list-style: none;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .quote {
@@ -212,7 +202,27 @@ body {
     align-items: center;
 }
 
+.call-to-action
+{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9FAF8;
+    background-size: 100%;
+    
+}
+
+.call-to-action-contents {
+    width: 70%;
+    height: 50%;
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+}
+
 .footer {
     margin-top: auto;
     text-align: center;
+    background-color: #1F2937;
 }
