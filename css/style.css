@@ -1,8 +1,24 @@
+/* Body */
 body {
     display: flex;
     flex-direction: column;
     margin: 0;
     padding: 0;
+}
+
+/* Hero Start */
+
+.hero {
+    
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    height: 700px;
+    background-image: url('../img/pexels-thisisengineering-3861972.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     
 }
 
@@ -16,17 +32,36 @@ body {
     
 }
 
-.hero {
+.header {
+    display: flex;
+    margin: 0;
+    padding: 10px;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #1F2937;
+    position: fixed;
+}
+
+.header-links {
+    display: flex;
+    gap: 2em;
     margin: 0;
     padding: 0;
+    list-style: none;
+    align-items: center;
+}
+
+
+.hero-right {
     display: flex;
+    flex: 1;
+}
+
+.hero-right img {
     width: 100%;
-    height: 700px;
-    background-image: url('../img/pexels-thisisengineering-3861972.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    
+    height: 100%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 .hero-left {
@@ -38,21 +73,6 @@ body {
     padding: 0 10px;
 }
 
-.hero-right {
-    display: flex;
-    flex: 1;
-}
-
-.header {
-    display: flex;
-    margin: 0;
-    padding: 10px;
-    justify-content: space-around;
-    width: 100%;
-    background-color: #1F2937;
-    position: fixed;
-}
-
 .header-logo {
     margin: 0;
     padding: 0;
@@ -60,11 +80,16 @@ body {
     color:#E5E7EB
 }
 
-.links {
-    display: flex;
-    gap: 2em;
-    margin: 0;
-    padding: 0;
+.nav a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.nav a:hover {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    border-radius: 10px;
 }
 
 .hero-content {
@@ -77,14 +102,7 @@ body {
     width: 100%;
     margin-top: 150px;
     background-color: rgba(31, 41, 55, .9);
-   
     border-radius: 50px;
-    
-}
-
-.random-code {
-    max-width: 100%;
-    max-height: 100%;
 }
 
 .hero-title {
@@ -97,17 +115,6 @@ body {
     font-size: 40;
 }
 
-.hero-right img {
-    width: 100%;
-    height: 100%;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-}
-
-.sign-up:hover {
-    background-color: #F9FAF8;
-    color: #3882f6
-}
 
 .sign-up {
     width: 100px;
@@ -117,41 +124,13 @@ body {
     text-align: center;
     color: #F9FAF8;
     text-decoration: none;
-    
-    
 }
 
-.links {
-    display: flex;
-    list-style: none;
+.sign-up:hover {
+    background-color: #F9FAF8;
+    color: #3882f6
 }
 
-.nav a {
-    text-decoration: none;
-    color: #E5E7EB;
-    font-size: 18px;
-    
-}
-
-.icon img {
-    height: 100%;
-    width: 100%;
-}
-
-.icon:hover {
-    border-color: black;
-}
-
-.nav a:hover {
-    background-color: #E5E7EB;
-    color: #1F2937;
-    border-radius: 10px;
-}
-
-.info-width-control {
-    width: 700px;
-    margin: 0 auto;
-}
 
 .info {
     
@@ -161,8 +140,28 @@ body {
     height: 500px;
     padding-bottom: 20px;
     justify-content: space-between;
-    flex-grow: 1;
-       
+    flex-grow: 1;  
+}
+
+.info-width-control {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.icon img {
+    height: 100%;
+    width: 100%;
+}
+
+.icon a {
+    text-decoration: none;
+    color: blue;
+    font-weight: 800;
+    
+}
+
+.icon:hover {
+    border-color: black;
 }
 
 .info-header {
@@ -185,11 +184,10 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
     flex-wrap: wrap;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    margin-bottom: 10px;
+    
 }
 
 .icon {
@@ -197,7 +195,7 @@ body {
     border: #3882f6 solid;
     width: 100%;    
     height: 100%;
-    border-radius: 3px;   
+    border-radius: 3px;
 }
 
 .option {
@@ -218,7 +216,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-shrink: 1;
+    
 }
 
 .quote-width-control {
@@ -241,9 +239,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    
     background-color: #F9FAF8;
-    
 }
 
 .call-to-action-contents {
@@ -260,7 +256,6 @@ body {
 
 .call-to-action-contents p {
     display: flex;
-    
     color: #E5E7EB;
     font-size: 20px;
     margin: 0 100px;
