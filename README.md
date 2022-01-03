@@ -1,5 +1,4 @@
-# Random Code
-# Landing Page
+# Random Code (Landing Page)
 
 - Image Credits and sources:
 
