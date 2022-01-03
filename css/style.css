@@ -6,8 +6,6 @@ body {
     padding: 0;
 }
 
-/* Hero Start */
-
 .hero {
     
     margin: 0;
@@ -19,7 +17,6 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
 }
 
 .hero-width-control {
@@ -93,7 +90,6 @@ body {
 }
 
 .hero-content {
-    
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -115,7 +111,6 @@ body {
     font-size: 40;
 }
 
-
 .sign-up {
     width: 100px;
     padding: 6px;
@@ -131,9 +126,7 @@ body {
     color: #3882f6
 }
 
-
 .info {
-    
     display: flex;
     flex-direction: column;
     background-color: #3882f6;
@@ -157,7 +150,6 @@ body {
     text-decoration: none;
     color: blue;
     font-weight: 800;
-    
 }
 
 .icon:hover {
@@ -187,7 +179,6 @@ body {
     flex-wrap: wrap;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    
 }
 
 .icon {
@@ -216,7 +207,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 .quote-width-control {
@@ -227,11 +217,9 @@ body {
     align-items: center;
 }
 .quote-content {
-    
     border: #bababa solid;
     padding: 50px 200px;
     border-radius: 20px;
-    
 }
 .call-to-action
 {
